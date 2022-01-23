@@ -6,31 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      .parent {
+      body {
+        background-color: #070625d8;
       }
 
-      .element {
-        width: 50px;
-        height: 50px;
-        background-color: black;
-        display: inline-block;
+      div {
+        text-align: center;
+        margin-top: 6rem;
       }
 
-      .element-1,
-      .element-2 {
-        border: 1px solid blue;
-      }
-
-      .element-3 {
-        border: 1px solid red;
+      input {
+        box-shadow: 0 0 5px #626262;
+        background: transparent;
+        border: none;
+        border-radius: 5px;
+        height: 31px;
+        outline: none;
+        width: 200px;
+        color: #9f9b9b;
+        padding-left: 1rem;
+        font-size: 1.2rem;
       }
     </style>
   </head>
   <body>
-    <div class="parent">
-      <div class="element element-1"></div>
-      <div class="element element-2"></div>
-      <div class="element element-3"></div>
+    <div>
+      <input type="text" placeholder="Type here..." autofocus />
     </div>
   </body>
 </html>
