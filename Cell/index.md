@@ -1,6 +1,6 @@
 # Cell
 
-### `Description`
+### Description
 
 The basic structural and functional unit of life forms.
 
